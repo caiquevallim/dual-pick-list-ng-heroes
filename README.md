@@ -15,6 +15,11 @@ This is an example using ```$ npm install dual-pick-list-ng --save```
 
 <img src="dual-pick-list-img.png" width="1080" hspace="12"/>
 
+1.git clone https://github.com/caiquevallim/dual-pick-list-ng-heroes.git
+2.```$ npm install```
+3.```ng serve```
+
+
 ## Documentation
 
 <a href="https://github.com/caiquevallim/dual-pick-list-angular-5">https://github.com/caiquevallim/dual-pick-list-angular-5</a>
