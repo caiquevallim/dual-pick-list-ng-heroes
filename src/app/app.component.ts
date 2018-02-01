@@ -35,6 +35,11 @@ export class AppComponent {
     ];
 
     this.headerConfig = new HeaderModel(this.leftList, this.rightList);
+
+  }
+
+  getInfo(evento){
+    console.log(evento);
   }
 
 
