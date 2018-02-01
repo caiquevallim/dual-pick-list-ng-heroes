@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import {ItemModel} from "../ItemModel";
+import {HeaderModel} from "../HeaderModel";
+import {HeaderDualPickListModel} from "dual-pick-list-ng";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +12,9 @@ export class AppComponent {
   title = 'dual pick list ng';
 
   items:Array<ItemModel>=[];
+  leftList: Array<HeaderDualPickListModel>=[];
+  rightList: Array<HeaderDualPickListModel>=[];
+  headerConfig: HeaderModel;
   constructor(){
     this.items = [
       new ItemModel(1, 'Batman'),
@@ -19,6 +24,17 @@ export class AppComponent {
       new ItemModel(5, 'Cyclops')
     ];
 
+    this.leftList = [
+      new HeaderDualPickListModel('ID','id'),
+      new HeaderDualPickListModel('Description','description'),
+    ];
+
+    this.rightList = [
+      new HeaderDualPickListModel('ID','id'),
+      new HeaderDualPickListModel('Description','description'),
+    ];
+
+    this.headerConfig = new HeaderModel(this.leftList, this.rightList);
   }
 
 
