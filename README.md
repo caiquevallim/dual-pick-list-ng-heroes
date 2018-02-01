@@ -1,27 +1,24 @@
-# DualPickListNgHeroes
+# dual-pick-list-ng / Angular 2+
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/caiquevallim/dual-pick-list-ng-heroes/master/LICENSE)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Table of contents
 
-## Code scaffolding
+- [Demo](#demo)
+- [Documentation](#documentation)
+- [License](#license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+This is an example using ```$ npm install dual-pick-list-ng --save```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+<img src="dual-pick-list-img.png" width="1080" hspace="12"/>
 
-## Running unit tests
+## Documentation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<a href="https://github.com/caiquevallim/dual-pick-list-angular-5">https://github.com/caiquevallim/dual-pick-list-angular-5</a>
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT
